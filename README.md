@@ -33,6 +33,20 @@ The application will:
 6. Transfer the total round-up amount to the savings goal
 7. Track processed transactions to avoid duplicates
 
+## Usage
+
+Replace the authentication placeholder on line 21 of RoundupApplication.java with an active token.
+
+```
+public static String accessToken;
+
+    static {
+        accessToken = "TOKEN HERE";
+    }
+```
+
+Simulate transactions via the Starling Bank developer portal and run the main method or test suite files as needed.
+
 ## Smart Processing
 
 To prevent duplicate round-ups, the application tracks processed transactions:
@@ -68,3 +82,5 @@ The application uses the following Starling Bank API endpoints:
 - Web UI for monitoring and configuration
 - Support for multiple accounts
 - Customizable round-up rules
+
+This is actually my second attempt at this project - my first became too convoluted with Spring Boot's many optional dependencies. Thus, I decided to strip it all down to basics for my final submission.
