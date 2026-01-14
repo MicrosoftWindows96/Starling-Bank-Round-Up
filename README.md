@@ -83,6 +83,4 @@ The application uses the following Starling Bank API endpoints:
 - Scheduled execution (daily/weekly round-ups)
 - Web UI for monitoring and configuration
 - Support for multiple accounts
-- Customizable round-up rules
-
-This is actually my second attempt at this project - my first became too convoluted with Spring Boot's many optional dependencies. Thus, I decided to strip it all down to basics for my final submission.
+- Customisable round-up rules
