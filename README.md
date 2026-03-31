@@ -1,5 +1,3 @@
-Submission by Shaho Zagrosi for Engine 2026 intake
-
 # Starling Bank Round-Up Feature
 
 This project implements a "round-up" feature for Starling Bank customers using the Starling Bank public API. The application rounds up transactions to the nearest pound and transfers the total to a dedicated savings goal, helping customers save for the future.
