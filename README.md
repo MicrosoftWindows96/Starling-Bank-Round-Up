@@ -82,3 +82,4 @@ The application uses the following Starling Bank API endpoints:
 - Web UI for monitoring and configuration
 - Support for multiple accounts
 - Customisable round-up rules
+
